@@ -2,21 +2,7 @@
 
 Follows the [official tutorial](https://cmake.org/cmake-tutorial/).
 
-### Debug
-
-In command line,
-
-```
-cmake -LAH
-```
-
-or in `CMakeLists.txt`,
-
-```
-message(...)
-``` 
-
-### Brief
+## Brief
 
 * Step 1: A basic starting point
  * `cmake_minimum_required`
@@ -42,3 +28,17 @@ message(...)
  * `#cmakedefine XXX`
  * `add_custom_command`
 * Step 5: Adding a generated file and generator
+
+## Debug
+
+In command line,
+
+```
+cmake -LAH
+```
+
+or in `CMakeLists.txt`,
+
+```
+message(...)
+``` 
